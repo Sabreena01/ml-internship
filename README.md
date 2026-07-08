@@ -92,7 +92,60 @@ The objective of this exercise was to understand how images are represented as n
 This exercise helped me understand that digital images are simply matrices of numerical pixel values. I learned how NumPy can be used to manipulate image data, how Matplotlib helps visualize images and pixel distributions, and how averaging multiple images reveals common patterns within a dataset. These concepts are fundamental for image processing, computer vision, and deep learning applications.
 
 
+##  Day 03 - Neural Networks with the Digits Dataset
 
+###  Objective
+Learn the basics of neural networks using the Scikit-learn Digits dataset and compare the performance of Logistic Regression and Multi-Layer Perceptron (MLP) models.
+
+###  Topics Covered
+- Understanding Neural Networks
+- Backpropagation and Gradient Descent
+- Logistic Regression
+- Multi-Layer Perceptron (MLP)
+- Hidden Layers and Neurons
+- Model Evaluation
+- Overfitting
+- Loss Curve Analysis
+
+###  Tasks Completed
+- Trained a Logistic Regression model as a baseline classifier.
+- Built an MLP Classifier with one hidden layer containing 32 neurons.
+- Compared the training and testing accuracy of Logistic Regression and MLP.
+- Experimented with different hidden layer configurations:
+  - 8 neurons
+  - 32 neurons
+  - 128 neurons
+  - Two hidden layers (64, 32)
+- Created a comparison table for different network architectures.
+- Plotted and analyzed the training loss curves.
+- Connected the loss curve with the concepts of Gradient Descent and Backpropagation.
+- Documented observations and conclusions in Markdown.
+
+###  Key Results
+
+| Model | Training Accuracy | Testing Accuracy |
+|--------|------------------:|-----------------:|
+| Logistic Regression | 100.00% | 97.50% |
+| MLP (32 neurons) | 100.00% | 97.78% |
+
+###  Hidden Layer Experiment
+
+| Hidden Layer | Training Accuracy | Testing Accuracy |
+|--------------|------------------:|-----------------:|
+| 8 | 100.00% | 94.44% |
+| 32 | 100.00% | 97.78% |
+| 128 | 100.00% | 97.78% |
+| (64, 32) | 100.00% | 96.67% |
+
+###  Key Observations
+- Both Logistic Regression and MLP achieved perfect training accuracy.
+- The MLP model performed slightly better than Logistic Regression on the test dataset.
+- Increasing the number of neurons improved performance up to a point, but larger networks did not always result in higher testing accuracy.
+- The loss curve showed a steady decrease during training, demonstrating how Gradient Descent and Backpropagation optimize the neural network.
+- This experiment reinforced the idea that a more complex model does not always generalize better on unseen data.
+
+ **Notebook:** `day-03/Day03_MLP_Digits_Classifier.ipynb`
+ 
 
 ##  Author
 
