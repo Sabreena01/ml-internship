@@ -146,6 +146,66 @@ Learn the basics of neural networks using the Scikit-learn Digits dataset and co
 
  **Notebook:** `day-03/Day03_MLP_Digits_Classifier.ipynb`
  
+# Day 04 - MNIST Handwritten Digit Classification using MLP
+
+## Overview
+
+On Day 04, I worked with the **MNIST Handwritten Digits** dataset and implemented a **Multi-Layer Perceptron (MLP) Classifier** using Scikit-learn. The objective was to understand the importance of preprocessing, compare model performance with and without feature scaling, and evaluate the classifier using different performance metrics.
+
+---
+
+## Tasks Completed
+
+- Loaded the MNIST dataset using `fetch_openml()`.
+- Explored dataset shape and structure.
+- Visualized handwritten digit images.
+- Scaled pixel values from **0–255** to **0–1**.
+- Trained an MLP classifier on both unscaled and scaled datasets.
+- Compared training time and testing accuracy.
+- Evaluated the model using a confusion matrix.
+- Visualized misclassified images.
+- Documented observations and final analysis.
+
+---
+
+## Results
+
+| Model | Training Time | Test Accuracy |
+|-------|--------------:|--------------:|
+| MLP (Without Scaling) | 10.95 s | 92.52% |
+| MLP (With Scaling) | 11.49 s | 96.23% |
+
+---
+
+## Key Learning
+
+- Feature scaling significantly improved model performance.
+- Larger datasets require more computation and longer training time.
+- Confusion matrices and misclassified samples help analyze model performance beyond overall accuracy.
+- MLP classifiers perform well on image classification tasks after proper preprocessing.
+
+---
+
+## Files
+
+- `Day04_MNIST_MLP_Classifier.ipynb`
+
+---
+
+**Status:** ✅ Completed
+
+## Skills Practiced
+
+- Python
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Neural Networks
+- Multi-Layer Perceptron (MLP)
+- Feature Scaling
+- Model Evaluation
+
+
 
 ##  Author
 
