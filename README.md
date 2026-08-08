@@ -36,28 +36,248 @@ This repository contains all the assignments, notebooks, projects, and learning 
 
 ---
 ## DAILY TASKS
+# Task 01 — Iris Dataset Analysis
 
-## Task 01 - Exploring the Iris Dataset
+## Overview
 
-### Objective
+This task focused on exploring and understanding a Machine Learning dataset through **Exploratory Data Analysis (EDA)**.
 
-Learn the basics of working with a Machine Learning dataset by exploring the Iris dataset using Python, Pandas, Matplotlib, and Scikit-learn.
+The **Iris dataset** was used as the first practical dataset for learning how to load, inspect, analyze, summarize, and visualize data using Python and common Machine Learning libraries.
 
-### Tasks Completed
+The task provided a foundation for understanding how raw dataset information is explored before applying Machine Learning algorithms.
 
-* Loaded the Iris dataset from Scikit-learn
-* Explored the dataset structure and dimensions
-* Viewed feature names and target labels
-* Converted the dataset into a Pandas DataFrame
-* Examined the first few rows of the dataset
-* Checked dataset information and summary statistics
-* Identified different Iris flower species
-* Visualized the dataset using plots to understand feature distributions
-* Learned how features relate to different flower classes
+---
 
-### Key Learning
+## Task Objective
 
-This exercise introduced me to one of the most popular datasets in Machine Learning. I learned how to load, inspect, and visualize a dataset, understand its features and labels, and perform basic exploratory data analysis (EDA). These skills form the foundation for building Machine Learning models.
+The main objectives of this task were:
+
+* Understand the structure of a Machine Learning dataset.
+* Load a built-in dataset using Scikit-learn.
+* Convert the dataset into a Pandas DataFrame.
+* Explore features and target labels.
+* Inspect the dataset dimensions and data types.
+* Generate descriptive statistics.
+* Identify the different target classes.
+* Analyze feature distributions.
+* Visualize relationships between features.
+* Understand the importance of Exploratory Data Analysis before model building.
+
+---
+
+## Dataset
+
+The **Iris dataset** is a well-known dataset commonly used for introductory Machine Learning and classification tasks.
+
+It contains measurements of Iris flowers belonging to three different species:
+
+* **Setosa**
+* **Versicolor**
+* **Virginica**
+
+The dataset contains four numerical features:
+
+| Feature      | Description         |
+| ------------ | ------------------- |
+| Sepal Length | Length of the sepal |
+| Sepal Width  | Width of the sepal  |
+| Petal Length | Length of the petal |
+| Petal Width  | Width of the petal  |
+
+The target variable represents the Iris species.
+
+---
+
+## Work Completed
+
+### 1. Dataset Loading
+
+The Iris dataset was loaded using **Scikit-learn**.
+
+This provided a convenient way to access the dataset and begin the analysis.
+
+---
+
+### 2. Dataset Structure Exploration
+
+The dataset was converted into a Pandas DataFrame and examined to understand:
+
+* Number of rows and columns.
+* Feature names.
+* Target labels.
+* Data types.
+* Overall dataset structure.
+
+This step helped establish what information was available before performing further analysis.
+
+---
+
+### 3. Initial Data Inspection
+
+The first few records of the dataset were examined to understand how the data was organized.
+
+The dataset was also checked for:
+
+* Missing values.
+* Data types.
+* Feature information.
+* Basic statistical properties.
+
+---
+
+### 4. Descriptive Statistics
+
+Summary statistics were generated for the numerical features.
+
+This helped understand the:
+
+* Mean
+* Standard deviation
+* Minimum value
+* Maximum value
+* Quartiles
+
+of the different measurements.
+
+Descriptive statistics provide an initial understanding of the distribution and variation of the dataset.
+
+---
+
+### 5. Target/Class Analysis
+
+The different Iris species were examined to understand the classification labels.
+
+This helped identify how the observations were distributed across the three classes.
+
+---
+
+### 6. Data Visualization
+
+Different visualizations were created to better understand the dataset.
+
+The analysis focused on:
+
+* Feature distributions.
+* Relationships between features.
+* Differences between Iris species.
+* Patterns that could potentially help distinguish the classes.
+
+Visualization made it easier to identify patterns that may not be obvious from numerical statistics alone.
+
+---
+
+## Exploratory Data Analysis Workflow
+
+The overall workflow followed in this task was:
+
+```text
+Load Dataset
+     ↓
+Convert to DataFrame
+     ↓
+Inspect Dataset
+     ↓
+Check Structure & Data Types
+     ↓
+Generate Descriptive Statistics
+     ↓
+Analyze Target Classes
+     ↓
+Visualize Features
+     ↓
+Identify Patterns & Relationships
+```
+
+---
+
+## Technologies Used
+
+* **Python**
+* **Jupyter Notebook**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Scikit-learn**
+
+---
+
+## Key Concepts Learned
+
+### Exploratory Data Analysis (EDA)
+
+EDA is the process of understanding a dataset before applying Machine Learning algorithms.
+
+It helps identify:
+
+* Data structure.
+* Feature characteristics.
+* Missing or problematic values.
+* Distributions.
+* Relationships between variables.
+* Potential patterns in the data.
+
+---
+
+### Features and Target
+
+I learned the difference between:
+
+**Features:**
+The input variables used to describe each observation.
+
+**Target:**
+The output/class that a Machine Learning model may eventually learn to predict.
+
+In this dataset, the flower measurements are the features, while the Iris species are the target classes.
+
+---
+
+### Data Visualization
+
+Visualization provides a graphical representation of the dataset.
+
+It helps identify patterns, differences between classes, and relationships between features more easily than looking at raw numbers alone.
+
+---
+
+## What I Learned
+
+This task introduced me to the basic workflow of working with a Machine Learning dataset.
+
+I learned how to:
+
+* Load datasets using Scikit-learn.
+* Work with Pandas DataFrames.
+* Inspect and understand dataset structure.
+* Analyze numerical features.
+* Examine target classes.
+* Generate summary statistics.
+* Create visualizations using Matplotlib.
+* Perform basic Exploratory Data Analysis.
+
+Most importantly, I learned that **understanding and exploring the data is an important step before building a Machine Learning model**.
+
+---
+
+## Learning Outcome
+
+By completing this task, I developed a foundation in **data exploration and preprocessing**, which is essential for later Machine Learning tasks.
+
+The concepts learned here were used as a starting point for subsequent tasks involving classification models and neural networks.
+
+---
+
+## Notebook
+
+`iris_analysis.ipynb`
+
+
+---
+
+## Summary
+
+**Task 01 focused on understanding the Iris dataset through Exploratory Data Analysis. The task established the fundamental workflow of loading, inspecting, analyzing, and visualizing Machine Learning data before model development.**
+
 
 
 ## Task 02 - Exploring the Digits Dataset
